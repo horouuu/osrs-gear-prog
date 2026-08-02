@@ -39,8 +39,8 @@ export default function Row({
               });
         })}
         {desc && <span className="fs14 infodesc">
-            {desc?.split("\\n").map((d) => (
-              <p>{d}</p>
+            {desc?.split("\\n").map((d, i) => (
+              <p key={i}>{d}</p>
             ))}</span>}
         {trail && <img src="src/assets/arr-right.png" />}
       </div>

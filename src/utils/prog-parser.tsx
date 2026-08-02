@@ -74,17 +74,19 @@ function formatItem(itemName: string, key: number, separator?: string, colCount?
               {sellItems.map((itemName, j) => (
                 <div
                   key={j}
-                  className={`iblock bg-opacity-20 ${
-                    sell
+                  className={`iblock ${itemName && "bg-opacity-20"} ${
+                    itemName && (sell
                       ? "bg-[#B22222]/30 crossed"
                       : itemName.includes("*")
                       ? "bg-[#35c6d7]/20"
                       : "bg-[#010101]/20"
-                  }`}
+                  )}`}
                 >
-                  <img className="itemIcons"
-                    src={`${IMG_DIR}/${itemName.replace(/(--|\*)/g, "")}.png`}
-                  />
+                  {itemName && (
+                    <img className="itemIcons"
+                      src={`${IMG_DIR}/${itemName.replace(/(--|\*)/g, "")}.png`}
+                    />
+                  )}
                 </div>
               ))}
             </div>
@@ -107,15 +109,17 @@ function formatItem(itemName: string, key: number, separator?: string, colCount?
               {buyItems.map((itemName, j) => (
                 <div
                   key={j}
-                  className={`iblock bg-opacity-20 ${
-                    itemName.includes("*")
-                      ? "bg-[#35c6d7]/50"
+                  className={`iblock ${itemName && "bg-opacity-20"} ${
+                    itemName && (itemName.includes("*")
+                      ? "bg-[#e5c6d7]/50"
                       : "bg-[#010101]/20"
-                  }`}
+                  )}`}
                 >
-                  <img className="itemIcons"
+                  {itemName && (
+                    <img className="itemIcons"
                     src={`${IMG_DIR}/${itemName.replace(/(--|\*)/g, "")}.png`}
-                  />
+                    />
+                  )}
                 </div>
               ))}
             </div>

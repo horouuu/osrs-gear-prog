@@ -1,3 +1,4 @@
+import './indextoa1.css'
 import "./App.css";
 import Row from "./components/Row";
 import Section from "./components/Section";
