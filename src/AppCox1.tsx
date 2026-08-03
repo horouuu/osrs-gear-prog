@@ -12,7 +12,7 @@ function AppCox1() {
           <span className="textrow">updated as of 2 August 2026</span>
       <Section
         title="Minimum Requirements"
-        description="This is a convenience copy of WDR's minimum requirements to raid.\nRefer to !coxmin and #cox-gear-advice to double check requirements."
+        description="For reference, this is a copy of the min required gear to raid in WDR.\nRefer to !coxmin and #cox-gear-advice to double check requirements."
       >
         <Row orderString="torso-- > fcape-- > ddef-- > tent-- > lb-- > dpick-- > salveei-- > swamptrident--"/>
         <Row orderString="piety-- > nezzy-- > dboots-- > bgloves-- > fury-- > bhidet-- > bhideb-- > assembler-- "/>
@@ -20,7 +20,7 @@ function AppCox1() {
         <span className="textrow"></span>
         <Row
           orderString="saracapei & occult & bbarkt & bbarkb & mysticm"
-          desc="Your mage gear must achieve at least 11% magic strength. This is the cheapest bundle."
+          desc="Your mage gear must achieve at least 11% magic damage. This is the cheapest bundle."
           colCount="5"
         />
       </Section>
@@ -39,30 +39,42 @@ function AppCox1() {
         />
         <Row
           trail
-          orderString="masorih & masorit & masorib > ralos $ dhcb > cgaunts $ torms > virtush & virtust & virtusb $ buckler > zvambs"
+          orderString="masorih & masorit & masorib > ralos & dcb $ dhcb > cgaunts $ torms > virtush & virtust & virtusb $ buckler > zvambs"
         />
+        <span className="textrow"></span>
         <Row
           orderString="dhcb*"
-          desc="Read !dhcb when selling DHCB."
+          desc="Read !dcb when selling DHCB."
         />
         <div className="line2"></div>
+        <span className="textrow">Option 1</span>
         <Row
-          orderString="ancestralh & elidf > rancour & prims & fg > atreads > rupture*"
-          desc="The value of Ward (f) for Eye outweighs the value of Treads, even considering the BP max hit gained."
+          orderString="ancestralh & elidf > rancour & prims & fg > atreads > rupture* > ancestralt & ancestralb"
         />
+        <Row
+          leftAlign
+          orderString=""
+          desc="This path is better value for money, as Ward (f) provides a considerable boost to Eye that outweighs the extra BP max hit gained from early Treads."
+        />
+        <span className="textrow">Option 2</span>
         <Row
           orderString="ancestralh & atreads > rancour & fg > rupture*"
-          desc="If you do not have the required levels to smith the fortified Ward, follow this progression path instead."
         />
         <Row
+          leftAlign
+          orderString=""
+          desc="If you do not have the required levels to smith the fortified Ward, Treads and regular Ward are the next best substitute. Apply the same approach to Scythe/Tbow rebuilds."
+        />
+        <span className="textrow"></span>
+        <Row
           orderString="rupture*"
-          desc="Without a Dizana's quiver, the Amulet of Rupture does not add BP max hits."
+          desc="Rupture provides additional max hits for BP and Tbow only when combined with a Dizana's Quiver.\nAssembler users should purchase Rupture only if no other upgrades remain."
         />
       </Section>
 
       <Section
-        title="Mega Rebuild Order"
-        description="Recommended to acquire megas in the following order for CoX.\nCan choose differently based on other content priorities."
+        title="Mega Rebuilds"
+        description="Recommended to acquire megas in the following order for CoX. See !coxrebuilds for individual rebuild progs.\nCan choose differently based on other content priorities."
       >
         <Row
           orderString="shadow* > scythe* > tbow*"
@@ -74,7 +86,7 @@ function AppCox1() {
       </Section>
       <Section
         title=""
-        description="Original prog design by ulia and Fujino Ayumu\nCodebase setup by Coronne\nCoX prog work by Wes J, Chip Dump, toy Owner\nImage chart created by DreamingNote"
+        description="Original prog design by ulia and Fujino Ayumu\nCodebase setup by Coronne\nCoX prog work by toy Owner, Wes J, Chip Dump\nImage chart created by DreamingNote"
       />
     </>
   );

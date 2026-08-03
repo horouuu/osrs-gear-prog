@@ -11,7 +11,7 @@ function AppCox3() {
       </div>
           <span className="textrow">updated as of 2 August 2026</span>
       <Section
-        title="Disclaimers"
+        title=""
         description="The gear progression chart is geared towards the most common type of raid in WDR (unalted 3+4s with TMG/MTM scouts).\nIf you are interested in other types of raids, particularly solos and/or CMs, gear progression can differ substantially.\nSome of those differences will be mentioned here. For more information, consult the CoX advice channels."
       />
       <Section
@@ -28,7 +28,7 @@ function AppCox3() {
         <div className="column">
           <Section
             title="Defence Reduction"
-            description="One of the easiest and biggest timesaves in raids is proper defence reduction application."
+            description="The biggest timesave in CoX is proper defence reduction."
           >
             <Row
               leftAlign
@@ -43,7 +43,7 @@ function AppCox3() {
             <Row
               leftAlign
               orderString="lb*"
-              desc="Recommended over other rings for the ability to apply more defence reduction specs, particularly at Olm."
+              desc="Recommended over other rings, as it enables more defence-reducing specs, particularly at Olm."
             />
           </Section>
           <Section
@@ -53,7 +53,7 @@ function AppCox3() {
             <Row
               leftAlign
               orderString="shadow*"
-              desc="Shadow rebuild is now recommended significantly later in the CoX prog than previously. This is due to the strength of Eye of Ayak and the substantial fall otherwise in DPS in other styles.\nBecause the calculations are based on TMG/MTM raids, those doing other rooms, including Vespula and Vanguards, CMs, or soloing, should prioritize a Shadow rebuild significantly sooner."
+              desc="Shadow rebuild is now recommended significantly later in the CoX prog than previously. This is due to the strength of the Eye of Ayak and the substantial fall otherwise in DPS in other styles when rebuilding.\nBecause the calculations are based on TMG/MTM raids, those doing other rooms, including Vespula and Vanguards, CMs, or soloing, should prioritize a Shadow rebuild significantly sooner."
             />
             <Row
               leftAlign
@@ -78,7 +78,7 @@ function AppCox3() {
             <Row
               leftAlign
               orderString="fang*"
-              desc="Can be used in solos at Tekton and for the range Vanguard in CMs, assuming no Scythe.\nDO NOT USE FANG AT OLM. With proper defence reduction, Fang becomes worse dps than a Dragon Scim at Olm."
+              desc="Can be used in solos at Tekton and for the range Vanguard in CMs, assuming no Scythe.\nDO NOT USE FANG AT OLM. With proper defence reduction, Fang becomes worse DPS than a Dragon Scim at Olm and is below the minimum required gear to raid in WDR."
             />
             <Row
               leftAlign
@@ -100,7 +100,7 @@ function AppCox3() {
             <Row
               leftAlign
               orderString="fbow* & cbody* & chelm* & clegs*"
-              desc="Due to problems irons face with obtaining ammo and charges, a Bowfa can be used in place of crossbows. IT DOES NOT REPLACE BLOWPIPE.\nFor non-irons, read !bowfa before purchasing and never corrupt it.\nA Bowfa can be purchased temporarily when actively pursuing an Infernal Cape or Dizana's quiver.\nDue to its accuracy, it can be a reasonable option for pre-Shadow/Tbow CMs and/or solos."
+              desc="Due to problems irons face with obtaining ammo and charges, a Bowfa can be used in place of crossbows. IT DOES NOT REPLACE BLOWPIPE.\nFor non-irons, read !bowfa before purchasing and never corrupt it.\nA Bowfa can be purchased temporarily when actively pursuing an Infernal Cape or Dizana's Quiver.\nDue to its accuracy, it can be a reasonable option for pre-Shadow/Tbow CMs and/or solos."
             />
             <Row
               leftAlign
@@ -119,13 +119,13 @@ function AppCox3() {
           >
             <Row
               leftAlign
-              orderString="infernal*"
+              orderString="& infernal*"
               desc="Greatly reduces tradeable gear requirement for critical Scythe max hit breakpoints.\nVisit #inferno for advice."
             />
             <Row
               leftAlign
-              orderString="quiver*"
-              desc="Boosts Blowpipe max hits considerably.\nGiven BP's significant role in regular CoX, a quiver is a significant upgrade, also unlocking significant benefits combined with the Amulet of Rupture.\nVisit #colosseum for advice."
+              orderString="& quiver*"
+              desc="Unlocks max hits with BP and Tbow. It is an essential component to unlocking the top max hits that are achievable in combination with the Necklace of Rupture.\nVisit #colosseum for advice."
             />
           </Section>
           <Section
@@ -158,7 +158,7 @@ function AppCox3() {
 
       <Section
         title=""
-        description="Original prog design by ulia and Fujino Ayumu\nCodebase setup by Coronne\nCoX prog work by Wes J, Chip Dump, toy Owner\nImage chart created by DreamingNote"
+        description="Original prog design by ulia and Fujino Ayumu\nCodebase setup by Coronne\nCoX prog work by toy Owner, Wes J, Chip Dump\nImage chart created by DreamingNote"
       />
     </>
   );

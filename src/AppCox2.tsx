@@ -13,7 +13,12 @@ function AppCox2() {
       <Section
         title="Mega Weapon Rebuilds"
         description="When buying Scythe, sell Lance. Bring defender for Guardians and for DWH.\nWhen buying Shadow, sell Eye and Ward."
-      />
+      >
+        <Row
+          orderString="rupture*"
+          desc="Rupture provides additional max hits for BP and Tbow only when combined with a Dizana's Quiver.\nAssembler users should purchase Rupture only if no other upgrades remain."
+        />
+      </Section>
       <Section
         title="Shadow Rebuild"
         description="Keep highlighted gear when rebuilding."
@@ -32,14 +37,7 @@ function AppCox2() {
         />
         <div className="line2"></div>
         <Row
-          trail
-          orderString="ancestralb > rancour > zvambs > ancestralt > fg"
-        />
-        <Row
-          orderString="assembler* > torvah & torvat & torvab > rupture"
-        />
-        <Row
-          orderString="quiver* > rupture > torvah & torvat & torvab"
+          orderString="ancestralb > rancour > zvambs > ancestralt > fg > rupture* > torvah & torvat & torvab"
         />
       </Section>
       <Section
@@ -51,8 +49,8 @@ function AppCox2() {
           colCount="7"
         />
         <Row
-          orderString="tbp* & anguish* & masorih* & masorit* & masorib*"
-          colCount="5"
+          orderString="tbp* & dcb* & anguish* & masorih* & masorit* & masorib*"
+          colCount="6"
         />
         <Row
           orderString="ayak* & elid* & occult* & cgaunts* & virtush* & virtust* & virtusb*"
@@ -60,7 +58,19 @@ function AppCox2() {
         />
         <div className="line2"></div>
         <Row
-          orderString="zvambs > ancestralh & elidf > atreads > torvah & torvat & torvab > rupture"
+          trail
+          orderString="zvambs > ancestralh & elidf > atreads"
+        />
+        <Row
+          orderString="fcape* > ancestralt & ancestralb > rupture* > torvah & torvat & torvab"
+        />
+        <Row
+          orderString="infernal* > torvab > ancestralt & ancestralb > rupture* > torvah & torvat"
+        />
+        <span className="textrow"></span>
+        <Row
+          orderString="infernal*"
+          desc="Infernal capers can reach 48 Scythe max with 1 Torva piece instead of 3, making it worth obtaining sooner."
         />
       </Section>
       <Section
@@ -68,25 +78,25 @@ function AppCox2() {
         description="Keep highlighted gear when rebuilding."
       >
         <Row
-          orderString="lance* & torture* & feros* & serp* & bmoont* & bmoonb*"
-          colCount="6"
+          orderString="lance* & torture* & feros* & serp* & bmoont* & bmoonb* & dboots*"
+          colCount="7"
         />
         <Row
           orderString="tbp* & tbow* & anguish* & zvambs* & masorih* & masorit* & masorib*"
           colCount="7"
         />
         <Row
-          orderString="ayak* & elid* & occult* & cgaunts* & virtush* & virtust* & virtusb*"
+          orderString="ayak* & elidf* & occult* & cgaunts* & ancestralh* & virtust* & virtusb*"
           colCount="7"
         />
         <div className="line2"></div>
         <Row
-        orderString="rancour & fg & prims > atreads > ancestralt & ancestralb > torvat & torvab > rupture > torvah"
+        orderString="rancour & fg & prims > atreads > ancestralt & ancestralb > torvat & torvab > rupture* > torvah"
         />
       </Section>
       <Section
         title=""
-        description="Original prog design by ulia and Fujino Ayumu\nCodebase setup by Coronne\nCoX prog work by Wes J, Chip Dump, toy Owner\nImage chart created by DreamingNote"
+        description="Original prog design by ulia and Fujino Ayumu\nCodebase setup by Coronne\nCoX prog work by toy Owner, Wes J, Chip Dump\nImage chart created by DreamingNote"
       />
     </>
   );
