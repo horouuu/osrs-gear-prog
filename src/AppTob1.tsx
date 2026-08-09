@@ -9,13 +9,13 @@ function AppTob1() {
       <div className="text-[24px] font-bold fcorange">
         Theatre of Blood Gear Progression Part 1
       </div>
-          <span className="textrow">updated as of 4 August 2026</span>
+          <span className="textrow">updated as of 9 August 2026</span>
       <Section
         title="Minimum Requirements"
         description="For reference, this is a copy of the min required gear to raid in WDR.\nRefer to !tobmin and #tob-gear-advice to double check requirements."
       >
         <Row orderString="voidmelee-- > voidrange-- > voidmage-- > voidtopelite-- > voidbotelite-- > voidgloves-- > piety-- > rigour-- > augury--"/>
-        <Row orderString="fcape-- > assembler-- > saracapei-- > torture-- > anguish-- > occult-- > tent-- > tbp-- > swamptrident--"/>
+        <Row orderString="firecape-- > assembler-- > saracapei-- > torture-- > anguish-- > occult-- > tent-- > tbp-- > swamptrident--"/>
         <Row orderString="salvee-- > ddef-- > bgs-- > chalberd-- > dboots-- > bringi-- > rpouch-- > botd--"/>
       </Section>
 

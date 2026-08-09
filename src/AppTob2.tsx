@@ -9,7 +9,7 @@ function AppTob2() {
       <div className="text-[24px] font-bold fcorange">
         Theatre of Blood Gear Progression Part 2
       </div>
-          <span className="textrow">updated as of 4 August 2026</span>
+          <span className="textrow">updated as of 9 August 2026</span>
       <Section
         title="Strength Gear"
         description="For ToB, melee accuracy is considered valuable on odd max hit thresholds with Scythe due to its max hit rounding property.\ne.g. 48 with Oath is considered better than 49 without it, but 50 without Oath beats 49 with it.\nPlease note that Scythe max hit breakpoints are customarily calculated with the assumption of having an Infernal Cape.\nFire capers will have to make additional adjustments/sacrifices, which will be noted below."
@@ -19,10 +19,10 @@ function AppTob2() {
         description="Tier 1 melee strength gear is mostly valuable with a Scythe.\nPre-Scythe, void is extremely competitive for the space gained."
       >
         <Row
-          orderString="feros-- > torso-- > bmoonb-- > fg-- > ultor--*"
+          orderString="feros-- > torso-- > bmoonb-- > faceguard-- > ultor--*"
         />
         <Row
-          orderString="ultor* & fcape*"
+          orderString="ultor* & firecape*"
           desc="Fire capers are required to additionally purchase Ultor to obtain 48 max."
         />
       </Section>
@@ -39,7 +39,7 @@ function AppTob2() {
           desc="Option 2"
         />
         <Row
-          orderString="ultor* & fcape*"
+          orderString="ultor* & firecape*"
           desc="See tier 1 strength gear notes."
         />
       </Section>
@@ -51,7 +51,7 @@ function AppTob2() {
           orderString="rancour-- > ultor-- > prims-- > torvah-- "
         />
         <Row
-          orderString="fcape*"
+          orderString="firecape*"
           desc="Fire capers currently cannot obtain 50 Scythe Max without full Torva.\nInstead, they should use full Oathplate."
         />
       </Section>
@@ -76,7 +76,7 @@ function AppTob2() {
         title="Freezer Gear Tier 2"
       >
         <Row
-          orderString="cgaunts > ayak > virtust > elid"
+          orderString="conflictions > ayak > virtust > elid"
         />
         <Row
           orderString="virtusb*"
