@@ -9,11 +9,15 @@ function AppCox2() {
       <div className="text-[24px] font-bold fcorange">
         Chambers of Xeric Gear Progression Part 2
       </div>
-          <span className="textrow">updated as of 2 August 2026</span>
+          <span className="textrow">updated as of 9 August 2026</span>
       <Section
         title="Mega Weapon Rebuilds"
         description="When buying Scythe, sell Lance. Bring defender for Guardians and for DWH.\nWhen buying Shadow, sell Eye and Ward."
       >
+        <Row
+          orderString="ralos"
+          desc="Keep Ralos in any rebuild."
+        />
         <Row
           orderString="rupture*"
           desc="Rupture provides additional max hits for BP and Tbow only when combined with a Dizana's Quiver.\nAssembler users should purchase Rupture only if no other upgrades remain."
@@ -32,12 +36,12 @@ function AppCox2() {
           colCount="6"
         />
         <Row
-          orderString="shadow* & occult* & cgaunts* & ancestralh* & virtust* & virtusb*"
+          orderString="shadow* & occult* & conflictions* & ancestralh* & virtust* & virtusb*"
           colCount="6"
         />
         <div className="line2"></div>
         <Row
-          orderString="ancestralb > rancour > zvambs > ancestralt > fg > rupture* > torvah & torvat & torvab"
+          orderString="ancestralb > rancour > zvambs > rupture* > ancestralt > faceguard > torvah & torvat & torvab"
         />
       </Section>
       <Section
@@ -45,7 +49,7 @@ function AppCox2() {
         description="Keep highlighted gear when rebuilding."
       >
         <Row
-          orderString="scythe* & rancour* & feros* & fg* & bmoont* & bmoonb* & dboots*"
+          orderString="scythe* & rancour* & feros* & faceguard* & bmoont* & bmoonb* & dboots*"
           colCount="7"
         />
         <Row
@@ -53,23 +57,23 @@ function AppCox2() {
           colCount="6"
         />
         <Row
-          orderString="ayak* & elid* & occult* & cgaunts* & virtush* & virtust* & virtusb*"
+          orderString="ayak* & elid* & occult* & conflictions* & virtush* & virtust* & virtusb*"
           colCount="7"
         />
         <div className="line2"></div>
         <Row
           trail
-          orderString="zvambs > ancestralh & elidf > atreads"
+          orderString="zvambs > ancestralh & elidf > rupture* > atreads"
         />
         <Row
-          orderString="fcape* > ancestralt & ancestralb > rupture* > torvah & torvat & torvab"
+          orderString="firecape* > ancestralt & ancestralb > torvah & torvat & torvab"
         />
         <Row
-          orderString="infernal* > torvab > ancestralt & ancestralb > rupture* > torvah & torvat"
+          orderString="infernalcape* > torvab > ancestralt & ancestralb > torvah & torvat"
         />
         <span className="textrow"></span>
         <Row
-          orderString="infernal*"
+          orderString="infernalcape*"
           desc="Infernal capers can reach 48 Scythe max with 1 Torva piece instead of 3, making it worth obtaining sooner."
         />
       </Section>
@@ -86,12 +90,12 @@ function AppCox2() {
           colCount="7"
         />
         <Row
-          orderString="ayak* & elidf* & occult* & cgaunts* & ancestralh* & virtust* & virtusb*"
+          orderString="ayak* & elidf* & occult* & conflictions* & ancestralh* & virtust* & virtusb*"
           colCount="7"
         />
         <div className="line2"></div>
         <Row
-        orderString="rancour & fg & prims > atreads > ancestralt & ancestralb > torvat & torvab > rupture* > torvah"
+        orderString="rancour & faceguard & prims > rupture* > atreads > ancestralt & ancestralb > torvah & torvat & torvab"
         />
       </Section>
       <Section

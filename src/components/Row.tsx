@@ -2,6 +2,7 @@ import { parseProg, formatItem } from "../utils/prog-parser";
 export default function Row({
   orderString,
   desc,
+  descClass,
   colCount,
   lead,
   trail,
@@ -9,16 +10,21 @@ export default function Row({
 }: {
   orderString: string;
   desc?: string;
+  descClass?: string;
   colCount?: number;
   lead?: boolean;
   trail?: boolean;
   leftAlign?: boolean;
 }) {
   const [parsed] = parseProg(orderString);
+  if (!descClass) {
+    descClass = "fs14 infodesc"
+  }
 
   return (
     <div className={`row ${trail ? "ml-[15px]" : "ml-auto"} mr-auto`}>
       <div
+        key={parsed}
         className={`icontainer flex flex-row items-center justify-${leftAlign ? "left" : "center"}`}
       >
         {lead && <img src="src/assets/arr-right.png" />}
@@ -38,7 +44,7 @@ export default function Row({
                 );
               });
         })}
-        {desc && <span className="fs14 infodesc">
+        {desc && <span className={`${descClass}`}>
             {desc?.split("\\n").map((d, i) => (
               <p key={i}>{d}</p>
             ))}</span>}

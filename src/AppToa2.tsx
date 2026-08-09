@@ -1,5 +1,5 @@
 import './indextoa2.css'
-import "./App.css";
+import "./AppNoSidePadding.css";
 import Row from "./components/Row";
 import Section from "./components/Section";
 
@@ -9,7 +9,7 @@ function App2() {
       <div className="text-[24px] font-bold fcorange">
         Tombs of Amascut Gear Progression Notes
       </div>
-          <span className="textrow">updated as of 2026 July 22</span>
+          <span className="textrow">updated as of 9 August 2026</span>
           <span className="textrow">For more information, consult ToA advice channels.</span>
 
       <div className="grid-container">
@@ -21,27 +21,27 @@ function App2() {
             <Row
               leftAlign
               orderString="bonedagger*"
-              desc="Useful for very high level raids with OD. Worse than bgs otherwise."
+              desc="Useful for very high level raids with OD. Worse than BGS otherwise."
             />
             <Row
               leftAlign
               orderString="seercull*"
-              desc="Acceptable spec weapon if shadowing Zebak in solo and no zcb."
+              desc="Acceptable spec weapon if shadowing Zebak in solo and no ZCB."
             />
             <Row
               leftAlign
               orderString="sang*"
-              desc="Noticeably worse than eye for wardens p3.\nCan replace eye if primarily focused on CoX."
+              desc="Noticeably worse than Eye for Wardens p3, and quickly obsoleted in gear progression.\nSang can still be used if there is a strong external reason to favour it."
             />
             <Row
               leftAlign
               orderString="elidf*"
-              desc="By the time this is a consideration, shadow rebuild should be close.\nCan be bought if primarily a ToB freezer."
+              desc="By the time this is a consideration, Shadow rebuild should be close.\nCan be purchased if primarily a ToB freezer."
             />
             <Row
               leftAlign
               orderString="fbow*"
-              desc="READ !bowfa BEFORE PURCHASING. DO NOT CORRUPT.\nRecommended temporarily for pursuing cape upgrades.\nCan be useful at 450+ raid level pre-shadow to replace certain range/mage gear."
+              desc="READ !bowfa BEFORE PURCHASING. DO NOT CORRUPT IF NON-IRON.\nRecommended temporarily for pursuing cape upgrades.\nCan be useful at 450+ raid level pre-Shadow to replace certain range/mage gear."
             />
             <Row
               leftAlign
@@ -51,17 +51,17 @@ function App2() {
           </Section>
           <Section
             title="Keris Partisan Upgrades"
-            description="None of these are worth bringing for dps if you have fang."
+            description="None of these are worth bringing for DPS if you have Fang."
           >
             <Row
               leftAlign
               orderString="kerisb*"
-              desc="Replaces hasta or below as primary stab weapon."
+              desc="Replaces Hasta or below as a primary stab weapon."
             />
             <Row
               leftAlign
               orderString="kerisu*"
-              desc="Best-in-slot against Kephri minions.\nCan beat fang against Kephri at low raid levels."
+              desc="Best-in-slot against Kephri minions.\nCan beat Fang against Kephri at low raid levels."
             />
             <Row
               leftAlign
@@ -76,12 +76,12 @@ function App2() {
           </Section>
           <Section
             title="Tbow-based Setups"
-            description="For those with a tbow and no shadow."
+            description="For those with a Tbow and no Shadow."
           >
             <Row
               leftAlign
               orderString="tbow*"
-              desc="You must use blowpipe and/or eye on Akkha and obelisk. Tbow will be used at Zebak and wardens p2-p4.\nPrioritize Masori over mage gear in item progression. Do NOT neglect zcb.\nSell Masori for shadow rebuild unless needed elsewhere."
+              desc="You must use BP and/or Eye on Akkha and Obelisk. Tbow will be used at Zebak and Wardens p2-p4.\nPrioritize Masori over mage gear in item progression. Do NOT neglect ZCB.\nSell Masori for Shadow rebuild unless needed elsewhere."
             />
           </Section>
         </div>
@@ -93,22 +93,22 @@ function App2() {
             <Row
               leftAlign
               orderString="bfury*"
-              desc="Waste of money, unnecessary healing and worse dps than rancour."
+              desc="Waste of money, unnecessary healing and worse dps than Rancour."
             />
             <Row
               leftAlign
               orderString="atlatl*"
-              desc="Worse than (min req) blowpipe in dps and unusable for Kephri swarming.\nArmor set is likewise not recommended to try to save space with."
+              desc="Worse than (min req) BP in dps and unusable for Kephri swarming.\nArmour set is likewise not recommended to try to save space with."
             />
             <Row
               leftAlign
               orderString="accursed*"
-              desc="Mediocre accuracy spec with marginal impact for shadow outside of Zebak.\nIf not using zcb, seercull/eye are often preferable."
+              desc="Mediocre accuracy spec with marginal impact for Shadow outside of Zebak.\nIf not using ZCB, Seercull/Eye specs are often preferable."
             />
             <Row
               leftAlign
               orderString="oathh* & oatht* & oathb*"
-              desc="Only increases bgs accuracy. Can be used with scythe for Fancy Feet CA."
+              desc="Only increases BGS accuracy.\nCan be used with Scythe for Fancy Feet CA."
             />
           </Section>
           <Section
@@ -117,19 +117,18 @@ function App2() {
           >
             <Row
               leftAlign
-              orderString="infernal* & quiver*"
-              desc="Recommended to obtain once you have at least a bow of faerdhinen.\nVisit #inferno and #colosseum for advice."
-              colCount="1"
+              orderString="infernalcape* & quiver*"
+              desc="Recommended to obtain once you have at least a Bow of Faerdhinen.\nVisit #inferno and #colosseum for advice."
             />
             <Row
               leftAlign
-              orderString="mysticv*"
-              desc="In current max setups, no max hit loss compared to Augury for half the prayer drain.\nAugury should still be used if shadowing Zebak as the accuracy difference is significant."
+              orderString="& mysticv*"
+              desc="No max hit loss with current max setups compared to Augury, but with half the prayer drain.\nAugury should still be used if shadowing Zebak as the accuracy difference is significant."
             />
             <Row
               leftAlign
-              orderString="deathcharge*"
-              desc="Double death charge is highly useful against Baba and Kephri in particular."
+              orderString="& deathcharge*"
+              desc="Double death charge is highly useful against Ba-Ba and Kephri in particular."
             />
           </Section>
           <Section
@@ -144,17 +143,12 @@ function App2() {
             <Row
               leftAlign
               orderString="blackchin*"
-              desc="Can be useful for tagging Baba baboons and Kephri swarms, particularly triples at path level 2 and higher."
+              desc="Can be useful for tagging Ba-Ba baboons and Kephri swarms, particularly triples at path level 2 and higher."
             />
             <Row
               leftAlign
               orderString="horn* & dwh*"
-              desc="In team raids, this combination is preferred over bgs."
-            />
-            <Row
-              leftAlign
-              orderString="dpick*"
-              desc="With 85 mining, removes the need for the extra hit trick to one down seal in solos."
+              desc="In team raids, this combination is preferred over BGS/Ralos."
             />
           </Section>
         </div>

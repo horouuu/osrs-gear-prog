@@ -3,28 +3,37 @@ import "./App.css";
 import Row from "./components/Row";
 import Section from "./components/Section";
 
-function App() {
+function AppToa1() {
   return (
     <>
       <div className="text-[24px] font-bold fcorange">
         Tombs of Amascut Gear Progression
       </div>
-          <span className="textrow">updated as of 2026 July 22</span>
+          <span className="textrow">updated as of 9 August 2026</span>
       <Section
         title="Minimum Requirements"
-        description="You are highly recommended to have these before starting ToA."
+        description="For reference, this is a copy of the min required gear to raid in WDR.\nRefer to !toamin and #toa-gear-advice to double check requirements."
       >
-        <Row orderString="zhasta-- > tbp-- > swamptrident-- > dds-- > ddef-- > rpick-- > dcb-- > piety--"/>
-        <Row orderString="torso-- > fcape-- > bringi-- > dboots-- > fury-- > bgloves-- > keris-- > rpouch-- "/>
-        <Row orderString="nezzy-- > occult-- > bbarkt-- > bbarkb-- > saracapei-- > bhidet-- > bhideb-- > assembler-- > botd-- "/>
+        <Row
+          orderString="zhasta-- > tbp-- > swamptrident-- > dds-- > ddef-- > dpick-- > dcb--"
+        />
+        <Row
+          orderString="piety-- > torso-- > firecape-- > bringi-- > dboots-- > fury-- > bgloves--"
+        />
+        <Row
+          orderString="keris-- > rpouch-- > nezzy-- > occult-- > bbarkt-- > bbarkb-- > saracapei-- "
+        />
+        <Row
+          orderString="bhidet-- > bhideb-- > assembler-- > botd-- "
+        />
       </Section>
     
       <Section
         title="Core Upgrades"
-        description="Start from the left and follow the order."
+        description="Start from the left and follow the order.\nRemember that combat stats are almost always more important than gear."
       >
         <Row
-          orderString="fang > lb & bgs > rigour > buckler > anguish > bclaws > feros > serp > torms"
+          orderString="fang > lb & bgs > rigour > buckler > anguish > bclaws > feros > serp > torm"
         />
       </Section>
 
@@ -34,54 +43,48 @@ function App() {
       >
         <Row
           trail
-          orderString="masorih & masorit & masorib > ayak > mbook > cgaunts $ torms > vw $ bclaws > torture"
+          orderString="masorih & masorit & masorib > ayak > mbook > conflictions $ torm > vw $ bclaws > torture"
         />
         <Row
-          orderString="rancour $ torture > augury > virtush & virtust & virtusb > bmoonb > fg > prims"
+          orderString="rancour $ torture > augury > virtush & virtust & virtusb > bmoonb > faceguard > prims"
         />
       </Section>
 
       <Section
         title="Shadow Rebuild"
-        description="Sell every secondary upgrade for shadow if possible."
+        description="Sell every secondary upgrade for Shadow if possible."
       >
         <Row
-          orderString="shadow* & saracapei* & occult* & torms* & virtush* & bbarkt* & bbarkb* & eternals*"
+          orderString="shadow* & saracapei* & occult* & torm* & virtush* & bbarkt* & bbarkb* & eternals*"
           desc="Minimum mage gear when rebuilding."
           colCount="4"
         />
         <Row
           trail
-          orderString="magus > cgaunts $ torms > virtust & virtusb > vw $ bclaws > ancestralh & ancestralb $ virtush & virtusb"
+          orderString="magus > conflictions $ torm > virtust & virtusb > vw $ bclaws > ancestralh & ancestralb $ virtush & virtusb"
         />
         <Row
-          orderString="torture > rancour $ torture > bmoonb > fg > prims > masorih & masorit & masorib"
+          orderString="torture > rancour $ torture > bmoonb > faceguard > prims > masorih & masorit & masorib"
         />
       </Section>
       <Section
-        title="Shadow + Zcb Rebuild"
-        description="Sell secondary melee and range upgrades for zcb. Do NOT sell mage gear."
+        title="Shadow + ZCB Rebuild"
+        description="Sell secondary melee and range upgrades for ZCB. Do NOT sell mage gear."
       >
         <Row trail orderString="shadow* & zcb*" />
         <Row
-          trail
-          orderString="ancestralt $ magus & virtust > vw $ bclaws > torture > rancour $ torture > bmoonb"
-        />
-        <Row
-          orderString="fg > prims > avernic > masorih & masorit & masorib"
+          orderString="ancestralt & atreads $ magus & virtust > vw $ bclaws > torture > rancour $ torture > bmoonb > faceguard > avernic > masorih & masorit & masorib"
         />
       </Section>
       <Section
         title="Tertiary Upgrades"
-        description="Only to be considered after all prior upgrades.\nDo NOT sell mage gear or zcb for any of these items, including the twisted bow.\nConsult ToA advice channels for more information on these upgrades."
+        description="Only to be considered after all prior upgrades.\nDo NOT sell mage gear or ZCB for any of these items, including the Twisted Bow.\nConsult ToA advice channels for more information on these upgrades."
       >
         <Row
-          orderString="atreads*"
-          desc="Eternals upgrade maxes shadow damage without magus ring."
+          orderString="ayak-- > tbow-- > rupture-- > zvambs-- > ralos--"
         />
         <Row
-          orderString="atreads > ayak & tbow & rupture & zvambs & ralos & ultor & torvah & torvat & torvab & rapier"
-          colCount="10"
+          orderString="ultor-- > torvah-- > torvat-- > torvab-- > rapier--"
         />
       </Section>
 
@@ -93,4 +96,4 @@ function App() {
   );
 }
 
-export default App;
+export default AppToa1;

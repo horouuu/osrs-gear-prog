@@ -9,12 +9,12 @@ function AppCox1() {
       <div className="text-[24px] font-bold fcorange">
         Chambers of Xeric Gear Progression Part 1
       </div>
-          <span className="textrow">updated as of 2 August 2026</span>
+          <span className="textrow">updated as of 9 August 2026</span>
       <Section
         title="Minimum Requirements"
         description="For reference, this is a copy of the min required gear to raid in WDR.\nRefer to !coxmin and #cox-gear-advice to double check requirements."
       >
-        <Row orderString="torso-- > fcape-- > ddef-- > tent-- > lb-- > dpick-- > salveei-- > swamptrident--"/>
+        <Row orderString="torso-- > firecape-- > ddef-- > tent-- > lb-- > dpick-- > salveei-- > swamptrident--"/>
         <Row orderString="piety-- > nezzy-- > dboots-- > bgloves-- > fury-- > bhidet-- > bhideb-- > assembler-- "/>
         <Row orderString="dcb-- > tbp-- > bgs-- > dsword-- > rpouch-- "/>
         <span className="textrow"></span>
@@ -31,7 +31,7 @@ function AppCox1() {
       >
         <Row
           trail
-          orderString="78herb > sang & elid & botd > rigour > augury > buckler > anguish > torms"
+          orderString="78herb > sang & elid & botd > rigour > augury > buckler > anguish > torm"
         />
         <Row
           trail
@@ -39,7 +39,7 @@ function AppCox1() {
         />
         <Row
           trail
-          orderString="masorih & masorit & masorib > ralos & dcb $ dhcb > cgaunts $ torms > virtush & virtust & virtusb $ buckler > zvambs"
+          orderString="masorih & masorit & masorib > ralos & dcb $ dhcb > conflictions $ torm > virtush & virtust & virtusb $ buckler > zvambs"
         />
         <span className="textrow"></span>
         <Row
@@ -49,7 +49,7 @@ function AppCox1() {
         <div className="line2"></div>
         <span className="textrow">Option 1</span>
         <Row
-          orderString="ancestralh & elidf > rancour & prims & fg > atreads > rupture* > ancestralt & ancestralb"
+          orderString="ancestralh & elidf > rancour & prims & faceguard > rupture* > atreads > ancestralt & ancestralb"
         />
         <Row
           leftAlign
@@ -58,7 +58,7 @@ function AppCox1() {
         />
         <span className="textrow">Option 2</span>
         <Row
-          orderString="ancestralh & atreads > rancour & fg > rupture*"
+          orderString="ancestralh & atreads > rancour & faceguard > rupture*"
         />
         <Row
           leftAlign

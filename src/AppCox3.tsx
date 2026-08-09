@@ -9,21 +9,11 @@ function AppCox3() {
       <div className="text-[24px] font-bold fcorange">
           Chambers of Xeric Gear Progression Notes
       </div>
-          <span className="textrow">updated as of 2 August 2026</span>
+          <span className="textrow">updated as of 9 August 2026</span>
       <Section
         title=""
         description="The gear progression chart is geared towards the most common type of raid in WDR (unalted 3+4s with TMG/MTM scouts).\nIf you are interested in other types of raids, particularly solos and/or CMs, gear progression can differ substantially.\nSome of those differences will be mentioned here. For more information, consult the CoX advice channels."
       />
-      <Section
-        title="Tonalztics of Ralos"
-        description=""
-      >
-        <Row
-          leftAlign
-          orderString="ralos*"
-          desc="Ralos was buffed in July 2026. It is now an essential spec weapon to bring to CoX.\nRalos with BP now easily beats DHCB or Bowfa in Olm.\nIt saves approximately 24 seconds in time to kill (TTK) per raid on head phase alone and can also be used to quickly reduce Ice Demon's defence due to its very high magic level.\nRalos specing benefits everyone in your team, improving the DPS of all range weapons and should be used regardless of your personal range weapon.\nDHCB can be sold as soon as Ralos is bought (see !coxprog).\nWith full defence reduction (3 Ralos specs), BP is very close to Tbow DPS on headphase.\nIn fact, with enough Ralos specs, BP easily beats Tbow's dps without them. See DPS comparisons with the !ralos command."
-        />
-      </Section>
       <div className="grid-container">
         <div className="column">
           <Section
@@ -33,7 +23,7 @@ function AppCox3() {
             <Row
               leftAlign
               orderString="ralos*"
-              desc="Bring to Olm. You can spec the head during p3 or at any time during the head phase.\nRalos specing is in addition to defence reduction of melee hand, not instead."
+              desc="See !ralos.\nBring to Olm. You can spec the head during p3 or at any time during the head phase.\nRalos specing is in addition to defence reduction of melee hand, not instead."
             />
             <Row
               leftAlign
@@ -119,7 +109,7 @@ function AppCox3() {
           >
             <Row
               leftAlign
-              orderString="& infernal*"
+              orderString="& infernalcape*"
               desc="Greatly reduces tradeable gear requirement for critical Scythe max hit breakpoints.\nVisit #inferno for advice."
             />
             <Row
