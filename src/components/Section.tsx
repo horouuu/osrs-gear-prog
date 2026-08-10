@@ -13,11 +13,12 @@ export default function Section({
 }: SectionProps) {
   return (
     <div>
+      <div className="line"></div>
       <div className="textrow fs14 description">
         <span className="fs18 font-semibold">{title}</span>
         <br />
-        {description?.split("\\n").map((d) => (
-          <p>{d}</p>
+        {description?.split("\\n").map((d, i) => (
+          <p key={i}>{d}</p>
         ))}
       </div>
       <div className="container">{children}</div>
